@@ -1,0 +1,76 @@
+main {
+  width: 100vw;
+  height: 100vh;
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main > div {
+  width: 30vw;
+  height: 80vh;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+form {
+  width: 25vw;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  margin-top: 5vh;
+}
+form > h2 {
+  margin: 0;
+}
+.formData {
+  width: 20vw;
+  height: 10vh;
+  font-size: 15px;
+  margin: 1vw 1vh;
+  border-radius: 8px;
+}
+#add {
+  background-color: #f7606e;
+  border: none;
+  font-weight: bolder;
+}
+#add:hover {
+  width: 21vw;
+  font-size: 18px;
+  background-color: #ad0c1a;
+  color: white;
+}
+#subtract {
+  background-color: #7ebef2;
+  border: none;
+  font-weight: bolder;
+}
+#subtract:hover {
+  width: 21vw;
+  font-size: 18px;
+  background-color: #047de0;
+  color: white;
+}
+#result {
+  width: 25vw;
+  text-align: center;
+}
+#clear {
+  width: 5vw;
+  font-size: 12px;
+  border: none;
+  border-radius: 3px;
+  background-color: #d095e8;
+}
+#clear:hover {
+  width: 5.5vw;
+  font-size: 14px;
+  background-color: #37024d;
+  color: white;
+}
